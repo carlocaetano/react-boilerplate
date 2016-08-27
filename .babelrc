@@ -1,0 +1,16 @@
+{
+  "presets": ["latest", "stage-1", "react"],
+  "plugins": [
+    "syntax-trailing-function-commas",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-react-pure-class-to-function",
+    "transform-react-remove-prop-types",
+    "transform-export-extensions"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    }
+  }
+}
